@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "376c59770ddb069e855822833cfcc78adde2418cb9889bf6d27f24cf1ce7f56f",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://api.agorapulse.com/docs/open-api.yml"
+  ],
+  "id": "agorapulse-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Agorapulse MCP setup and connection checker",
+  "description": "Generate Agorapulse MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "agorapulse",
+  "appName": "Agorapulse",
+  "providerDocs": "https://api.agorapulse.com/docs/open-api.yml",
+  "providerWebsite": "https://www.agorapulse.com/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://support.agorapulse.com/en/articles/12417183-how-to-connect-to-agorapulse-s-open-api",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-agorapulse-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
