@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-agorapulse",
+      "description": "Connect AI agents to Agorapulse using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-agorapulse/SKILL.md": "32990390ab9f77863e8de55b82c870eec56f6521f456b8e62b3b9e186ab7a840"
+  }
+}
